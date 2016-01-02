@@ -31,7 +31,7 @@
     <Publish>
       <Port>
         <HostPort>9093</HostPort>
-        <ContainerPort>9093</ContainerPort>
+        <ContainerPort>9091</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
      <Port>
@@ -58,7 +58,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
-<WebUI>http://[IP]:[PORT:9091]/</WebUI>
+<WebUI>http://[IP]:[PORT:9093]/</WebUI>
   <Banner></Banner>
   <Icon>https://raw.githubusercontent.com/sh4t/docker-templates/master/shat.io/img/transmission-icon.png</Icon>
 </Container>
